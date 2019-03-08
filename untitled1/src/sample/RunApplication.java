@@ -12,6 +12,7 @@ import java.util.Random;
 public class RunApplication extends Application {
     public static void main(String[] args) throws Exception {
         Application.launch(RunApplication.class);
+        System.out.println("A ");
     }
     @Override
     public void start(Stage stage) throws Exception {
@@ -36,5 +37,6 @@ public class RunApplication extends Application {
         thread.setDaemon(true);
         thread.start();
     }
+
 }
 
